@@ -128,13 +128,13 @@ export default function Home() {
     <main className=" scroll-smooth flex min-h-screen h-fit w-full flex-col bg-gradient-to-t from-[#000815] via-black via-90% to-black relative">
     
       <section className='grid items-center relative justify-items-center grid-rows-2 md:grid-rows-1  md:grid-cols-2  w-full h-screen ' style={{background:'url(/fondo.svg)', backgroundPosition:'center',backgroundSize:'cover'}}>
-        <div className='row-span-1 md:col-span-1 gap-4 flex leading-2 md:relative flex-col w-full h-1/2 lg:h-3/4 p-10 sm:pl-7 md:pl-18 lg:pl-24  md:pt-16 text-center md:text-start items-center md:justify-center lg:justify-start md:items-start lg:text-start  relative z-20 '>
+        <div className='row-span-1 md:col-span-1 gap-4 flex leading-2 relative flex-col w-full h-1/2 lg:h-3/4 p-10 sm:pl-7 md:pl-18 lg:pl-24  md:pt-16 text-center md:text-start items-center md:justify-center lg:justify-start md:items-start lg:text-start  z-40 '>
           <h1 className='text-white text-5xl sm:text-5xl  md:text-6xl lg:text-7xl font-bold font-sans leading-tight'>SERVICIOS <br/><span className='text-fuxia bg-transparent text-4xl  sm:text-4xl md:text-5xl lg:text-6xl font-bold font-sans'>STREAMING</span></h1>
-          <h2 className='text-white text-md md:text-lg lg:text-lg font-bold font-sans t'>Disfruta de tus plataformas de Streaming favoritas totalmente garantizadas</h2>
-          <h2 className='text-white text-xs md:text-xs lg:text-md font-bold font-sans t'>Ofrecemos la mejor calidad y precio en todos nuestros servicios</h2>
-          <Link href={'/productos'} className='text-white sm:text-fuxia p-2 w-fit h-fit font-bold border-fuxia sm:border-b-4 hover:border-none hover:scale-105 bg-fuxia sm:bg-transparent hover:bg-violet-900 hover:text-white hover:shadow-lg ease-in-out duration-300 rounded-lg relative z-20'>Conoce nuestros servicios</Link>
+          <h2 className='text-white text-md md:text-lg lg:text-lg font-bold font-sans opacity-70'>Disfruta de tus plataformas de Streaming favoritas totalmente garantizadas</h2>
+          <h2 className='text-white text-xs md:text-xs lg:text-md font-bold font-sans opacity-60'>Ofrecemos la mejor calidad y precio en todos nuestros servicios</h2>
+          <Link href={'/productos'} className='text-white sm:text-fuxia p-2 w-fit h-fit font-bold border-fuxia sm:border-b-4 hover:border-none hover:scale-105 bg-fuxia sm:bg-transparent hover:bg-violet-900 hover:text-white hover:shadow-lg ease-in-out duration-300 rounded-lg relative z-30'>Conoce nuestros servicios</Link>
         </div>
-        <div className='row-span-1 flex w-1/2 sm:w-2/3 h-2/3 items-end relative md:col-span-1 relative z-20'>
+        <div className='row-span-1 flex w-1/2 sm:w-2/3 h-2/3 items-end relative md:col-span-1 relative z-10'>
           <Image src={'/adornos.svg'} alt='pingui image' width={100} height={100}  className='w-full h-3/4 opacity-80 top-0 absolute z-10'/>
           <Image src={'/pingui.svg'} alt='pingui image' width={100} height={100}  className='w-full h-1/2 absolute z-10'/>
         </div>
@@ -167,10 +167,10 @@ export default function Home() {
         </div>
         
       </section>
-      <section className='relative  w-full h-[50vh] flex flex-col p-2 gap-8 items-center bg-gradient-to-t from-[#000815] from-20% via-[#0f012f] to-black to-80%' >
+      <section id={'contactanos'} className='relative  w-full h-[50vh] flex flex-col p-2 gap-8 items-center bg-gradient-to-t from-[#000815] from-20% via-[#0f012f] to-black to-80%' >
         <h4  className='text-fuxia text-2xl md:text-3xl font-bold font-sans text-center w-full'>CONTACTANOS</h4>
         <span className='text-white text-lg text-center'>Conoce más de nosotros y síguenos en nuestras redes sociales</span>
-          <div className='p-4 w-[80%] sm:w-3/4 h-1/2 grid grid-cols-3 p-4 items-center justify-items-center'>
+          <div className='p-4 w-[80%] sm:w-3/4 h-1/2 grid grid-cols-3 gap-2 items-center justify-items-center'>
             <Link className='w-3/4 flex flex-col items-center justify-center col-span-1 gap-2 hover:scale-105'  href={'/'}>
               <Image src={'/redesSociales/whatsapp.svg'} className='' width={100} height={100} alt=''></Image>
               <span className='text-fuxia '>whatsapp</span>

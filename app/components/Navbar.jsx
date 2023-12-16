@@ -12,11 +12,11 @@ import Image from 'next/image'
 function Navbar() {
     const [open,setOpen]=useState(true)
   return (
-    <header className='h-[12vh] w-full flex align-end justify-end absolute z-20 bg-[#030128]'>
+    <header className='h-[12vh] w-full flex align-end justify-end fixed z-50 bg-[#030128]'>
         <Link href={'/'} className='absolute top-4 left-4 h-fit w-fit'>
         <Image src={'/logoiceflix.svg'} alt='logo' width={100} height={20} className=' w-[150px] h-[40px]'></Image>
         </Link>
-         <ul className='hidden md:flex flex-row gap-6 w-fit h-full p-6'>
+         <ul className='hidden md:flex flex-row gap-6 w-fit h-full p-6 relative z-30'>
             <li className=' hover:scale-105 opacity-70 hover:opacity-100'>
                 <Link href={'/'} className='flex flex-row gap-2 text-white '>
                     <HomeIcon className='text-white w-6 h-6 '/>Inicio
@@ -42,7 +42,7 @@ function Navbar() {
         {open ?
         <MenuIcon className='flex md:hidden w-10 h-10 font-bold text-white absolute top-4 right-4' onClick={()=>setOpen(false)}/>
         :
-        <ul className='flex md:hidden flex-col gap-6 w-[50vw] h-[50vh] bg-[#27272a] p-6 items-end'>
+        <ul className='flex md:hidden flex-col gap-6 w-[50vw] h-[50vh] bg-[#27272a] p-6 items-end fixed'>
             <li  className='flex flex-row gap-2 '>
                 <XIcon className='w-8 h-8 text-white ' onClick={()=>setOpen(true)}/>
             </li>
