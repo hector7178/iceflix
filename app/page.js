@@ -99,6 +99,22 @@ export default function Home() {
     url:'STAR'
     },
     {
+      servicio: 'SPOTIFY' ,
+      tiempo:'( 1 MES  )',
+      precio:'Precio: 3,50$',
+      img:'SPOTIFY.svg',
+      promo:false,
+      url:'SPOTIFY'
+    },
+    {
+      servicio: 'SPOTIFY' ,
+      tiempo:'( 1 AÑO  )',
+      precio:'Precio: 28$',
+      img:'SPOTIFYYEAR.svg',
+      promo:false,
+      url:'SPOTIFYYEAR'
+    },
+    {
     servicio: 'DISNEY +' ,
     tiempo:' ( 30 Días  ) ',
     precio:'Precio: 1,49$',

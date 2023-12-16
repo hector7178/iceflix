@@ -45,6 +45,19 @@ function page({ params }) {
         precio:'Precio: 1,90$',
         src:'/HBOMAX.svg',
         URL:'HBOMAX'
+        },
+        {
+          servicio:'SPOTIFY',
+          tiempo:'( 30 Días  )',
+          precio:'Precio: 3.5$',
+          src:'/SPOTIFY.svg',
+          URL:'SPOTIFY'
+        },{
+        servicio:'SPOTIFY',
+        tiempo:'( 1 AÑO  )',
+        precio:'Precio: 28$',
+        src:'/SPOTIFYYEAR.svg',
+        URL:'SPOTIFYYEAR'
         }, 
         {
           servicio:'Promoción NETFLIX y CRUNCHROLL',
@@ -122,12 +135,20 @@ function page({ params }) {
                 <h3 className='text-white text-2xl font-bold'>{ found.servicio }</h3>
                 <span className='text-white text-xl font-bold'>{ found.tiempo }</span>
                 <span className='text-white text-xl font-bold'> { found.precio}</span>
+                {found.servicio ==='SPOTIFY'?
+                <p className='text-white text-xs '>
+                ✅Con tu correo electrónico<br></br>
+                ✅Con garantía por el tiempo contratado<br></br>
+                ✅Por encargo<br></br>
+                ✅Se conservan sus playlist (Renovación)  <br></br>
+                </p>
+                :
                 <p className='text-white text-xs '>
                 ✅ Cuentas Originales   <br></br>
                 ✅ Renovables  <br></br>
                 ✅ Garantía por el tiempo contratado   <br></br>
                 ✅ Cuentas completas y perfiles disponibles
-                </p>
+                </p>}
                 <p className='text-white text-xs '>
                 <span className='text-white text-xl'>Los métodos de pagos:</span><br></br><br></br>
                 ✅ Pago Móvil <br></br>

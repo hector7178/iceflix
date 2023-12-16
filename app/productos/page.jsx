@@ -19,6 +19,22 @@ function page() {
         tiempo:'( 30 Días  )',
         precio:'Precio: 1,50$',
         URL:'STAR'
+        }, 
+        {
+          servicio: 'SPOTIFY' ,
+          tiempo:'( 1 MES  )',
+          precio:'Precio: 3.5$',
+          img:'SPOTIFY.svg',
+          promo:false,
+          URL:'SPOTIFY'
+        },
+        {
+          servicio: 'SPOTIFY' ,
+          tiempo:'( 1 AÑO  )',
+          precio:'Precio: 28$',
+          img:'SPOTIFYYEAR.svg',
+          promo:false,
+          URL:'SPOTIFYYEAR'
         },
         {
         servicio: 'DISNEY +' ,
