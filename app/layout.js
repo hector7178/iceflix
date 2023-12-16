@@ -5,8 +5,8 @@ import Navbar from './components/Navbar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'M&L ',
-  description: ' M&L te ofrece los mejores precios, garantía en todos nuestros servicios y una grandiosa atención al cliente',
+  title: 'ICEFLIX',
+  description: 'ICEFLIX te ofrece los mejores precios, garantía en todos nuestros servicios y una grandiosa atención al cliente',
 }
 
 export default function RootLayout({ children }) {
