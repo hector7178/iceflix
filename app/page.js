@@ -125,7 +125,7 @@ export default function Home() {
   
   return (
     <Suspense fallback={<Loader/>}>
-    <main className=" scroll-smooth flex min-h-screen h-fit w-full flex-col bg-gradient-to-b from-black via-gray-500 to-black relative">
+    <main className=" scroll-smooth flex min-h-screen h-fit w-full flex-col bg-gradient-to-t from-[#000815] via-black via-90% to-black relative">
     
       <section className='grid items-center relative justify-items-center grid-rows-2 md:grid-rows-1  md:grid-cols-2  w-full h-screen ' style={{background:'url(/fondo.svg)', backgroundPosition:'center',backgroundSize:'cover'}}>
         <div className='row-span-1 md:col-span-1 gap-4 flex leading-2 md:relative flex-col w-full h-1/2 lg:h-3/4 p-10 sm:pl-7 md:pl-18 lg:pl-24  md:pt-16 text-center md:text-start items-center md:justify-center lg:justify-start md:items-start lg:text-start  relative z-20 '>
