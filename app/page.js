@@ -125,7 +125,7 @@ export default function Home() {
     {
     servicio: 'AMAZON PRIME' ,
     tiempo:'( 30 Días  )',
-    precio:'Precio: 1,90$',
+    precio:'Precio: 2.50$',
     img:'AMAZONPRIME.svg',
     promo:false,
     url:'AMAZONPRIME'

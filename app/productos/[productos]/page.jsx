@@ -36,7 +36,7 @@ function page({ params }) {
         {
         servicio: 'AMAZON PRIME' ,
         tiempo:'( 30 Días  )',
-        precio:'Precio: 1,90$',
+        precio:'Precio: 2.5$',
         src:'/AMAZONPRIME.svg',
         URL:'AMAZONPRIME'
         },{

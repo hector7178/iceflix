@@ -45,7 +45,7 @@ function page() {
         {
         servicio: 'AMAZON PRIME' ,
         tiempo:'( 30 Días  )',
-        precio:'Precio: 1,90$',
+        precio:'Precio: 2.50$',
         URL:'AMAZONPRIME'
         },{
         servicio:'HBO MAX',
