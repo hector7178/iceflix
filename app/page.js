@@ -70,7 +70,7 @@ export default function Home() {
     {
       nombre: "Daniela Paez",
       puntuacion: 5,
-      reseña: "Me encanta el cine y por eso uso M&L para comprar cuentas de streaming de las mejores plataformas. Tienen una gran variedad de opciones y precios, y el servicio es muy rápido y confiable. No tengo ninguna queja."
+      reseña: "Me encanta el cine y por eso uso ICEFLIX para comprar cuentas de streaming de las mejores plataformas. Tienen una gran variedad de opciones y precios, y el servicio es muy rápido y confiable. No tengo ninguna queja."
     }
   ];
   const servicio=[
@@ -187,7 +187,7 @@ export default function Home() {
         <h4  className='text-fuxia text-2xl md:text-3xl font-bold font-sans text-center w-full'>CONTACTANOS</h4>
         <span className='text-white text-lg text-center'>Conoce más de nosotros y síguenos en nuestras redes sociales</span>
           <div className='p-4 w-[80%] sm:w-3/4 h-1/2 grid grid-cols-3 gap-2 items-center justify-items-center'>
-            <Link className='w-3/4 flex flex-col items-center justify-center col-span-1 gap-2 hover:scale-105'  href={'/'}>
+            <Link className='w-3/4 flex flex-col items-center justify-center col-span-1 gap-2 hover:scale-105'  href={`https://api.whatsapp.com/send/?phone=584244431231&text=Hola,%20Me%20gustaria%20conocer%20mas%20sobre%20los%20servicios%20de%20%streaming%20&type=phone_number&app_absent=0`}>
               <Image src={'/redesSociales/whatsapp.svg'} className='' width={100} height={100} alt=''></Image>
               <span className='text-fuxia '>whatsapp</span>
             </Link>
