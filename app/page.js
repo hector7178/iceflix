@@ -80,7 +80,7 @@ export default function Home() {
         servicio: 'CRUNCHYROLL' ,
         tiempo:'( 30 Días  )',
         precio:'Precio: 1.5$',
-        img:'/CRUNCHYROLL.svg',
+        img:'CRUNCHYROLL.svg',
         url:'CRUNCHYROLL',
           promo:false
         },
@@ -88,7 +88,7 @@ export default function Home() {
         servicio: 'DISNEY y STAR +' ,
         tiempo:' ( 30 Días  ) ',
         precio:'Precio: 3.5$',
-        img:'/DISNEY.svg',
+        img:'DISNEY.svg',
         url:'DISNEY',
           promo:false
         },
@@ -96,7 +96,7 @@ export default function Home() {
         servicio: 'MAGIS TV' ,
         tiempo:' ( 30 Días  ) ',
         precio:'Precio: 4$',
-        img:'/MAGISTV.svg',
+        img:'MAGISTV.svg',
         url:'MAGISTV',
           promo:false
         },
@@ -104,7 +104,7 @@ export default function Home() {
         servicio: 'CANVAS' ,
         tiempo:' ( 30 Días  ) ',
         precio:'Precio: 1$',
-        img:'/CANVAS.svg',
+        img:'CANVAS.svg',
         url:'CANVAS',
           promo:false
         },
@@ -112,7 +112,7 @@ export default function Home() {
         servicio: 'APPLE TV' ,
         tiempo:' ( 3 meses  ) ',
         precio:'Precio: 5$',
-        img:'/APPLETV.svg',
+        img:'APPLETV.svg',
         url:'APPLETV',
           promo:false
         },
@@ -120,14 +120,14 @@ export default function Home() {
         servicio: 'AMAZON PRIME' ,
         tiempo:'( 30 Días  )',
         precio:'Precio: 2$',
-        img:'/AMAZONPRIME.svg',
+        img:'AMAZONPRIME.svg',
         url:'AMAZONPRIME',
           promo:false
         },{
         servicio:'HBO MAX',
         tiempo:'( 30 Días  )',
         precio:'Precio: 3.5$',
-        src:'/HBOMAX.svg',
+        src:'HBOMAX.svg',
         url:'HBOMAX',
           promo:false
         },
@@ -135,14 +135,14 @@ export default function Home() {
           servicio:'SPOTIFY',
           tiempo:'( 30 Días  )',
           precio:'Precio: 3.5$',
-          img:'/SPOTIFY.svg',
+          img:'SPOTIFY.svg',
           url:'SPOTIFY',
           promo:false
         },{
         servicio:'SPOTIFY',
         tiempo:'( 3 Meses  )',
         precio:'Precio: 5$',
-        img:'/SPOTIFYYEAR.svg',
+        img:'SPOTIFYYEAR.svg',
         url:'SPOTIFYYEAR',
           promo:false
         }
