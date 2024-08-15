@@ -127,7 +127,7 @@ export default function Home() {
         servicio:'HBO MAX',
         tiempo:'( 30 Días  )',
         precio:'Precio: 3.5$',
-        src:'HBOMAX.svg',
+        img:'HBOMAX.svg',
         url:'HBOMAX',
           promo:false
         },
