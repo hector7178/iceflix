@@ -34,12 +34,6 @@ export default function Home() {
       url:'netflix',
       promo:true
     },{
-      servicio:'Promoción STAR +',
-      img:'promocionStar.svg',
-      url:'star',
-      promo:true
-
-    },{
       servicio:'Promoción SPOTIFY',
       img:'promocionSpotify.svg',
       url:'spotify',
@@ -74,69 +68,84 @@ export default function Home() {
     }
   ];
   const servicio=[
-    {
-    servicio:'NETFLIX',
-    tiempo:'( 30 Días )',
-    img:'NETFLIX.svg',
-    promo:false,
-    precio:'Precio: 3,5$',
-    url:'NETFLIX'
-    },
-    {
-    servicio: 'CRUNCHYROLL' ,
-    tiempo:'( 30 Días  )',
-    precio:'Precio: 2$',
-    img:'CRUNCHYROLL.svg',
-    promo:false,
-    url:'CRUNCHYROLL'
-    },
-    {
-    servicio: 'STAR +' ,
-    tiempo:'( 30 Días  )',
-    precio:'Precio: 1,50$',
-    img:'STAR.svg',
-    promo:false,
-    url:'STAR'
-    },
-    {
-      servicio: 'SPOTIFY' ,
-      tiempo:'( 1 MES  )',
-      precio:'Precio: 3,50$',
-      img:'SPOTIFY.svg',
-      promo:false,
-      url:'SPOTIFY'
-    },
-    {
-      servicio: 'SPOTIFY' ,
-      tiempo:'( 1 AÑO  )',
-      precio:'Precio: 28$',
-      img:'SPOTIFYYEAR.svg',
-      promo:false,
-      url:'SPOTIFYYEAR'
-    },
-    {
-    servicio: 'DISNEY +' ,
-    tiempo:' ( 30 Días  ) ',
-    precio:'Precio: 1,49$',
-    img:'DISNEY.svg',
-    promo:false,
-    url:'DISNEY'
-    },
-    {
-    servicio: 'AMAZON PRIME' ,
-    tiempo:'( 30 Días  )',
-    precio:'Precio: 2.50$',
-    img:'AMAZONPRIME.svg',
-    promo:false,
-    url:'AMAZONPRIME'
-    },{
-    servicio:'HBO MAX',
-    tiempo:'( 30 Días  )',
-    precio:'Precio: 1,90$',
-    img:'HBOMAX.svg',
-    promo:false,
-    url:'HBOMAX'
-    }   
+     {
+        servicio:'NETFLIX',
+        tiempo:'( 30 Días )',
+        precio:'Precio: 3,5$',
+        src:'/NETFLIX.svg',
+        URL:'NETFLIX',
+        promo:false
+        },
+        {
+        servicio: 'CRUNCHYROLL' ,
+        tiempo:'( 30 Días  )',
+        precio:'Precio: 1.5$',
+        src:'/CRUNCHYROLL.svg',
+        URL:'CRUNCHYROLL',
+          promo:false
+        },
+        {
+        servicio: 'DISNEY y STAR +' ,
+        tiempo:' ( 30 Días  ) ',
+        precio:'Precio: 3.5$',
+        src:'/DISNEY.svg',
+        URL:'DISNEY',
+          promo:false
+        },
+        {
+        servicio: 'MAGIS TV' ,
+        tiempo:' ( 30 Días  ) ',
+        precio:'Precio: 4$',
+        src:'/MAGISTV.svg',
+        URL:'MAGISTV',
+          promo:false
+        },
+        {
+        servicio: 'CANVAS' ,
+        tiempo:' ( 30 Días  ) ',
+        precio:'Precio: 1$',
+        src:'/CANVAS.svg',
+        URL:'CANVAS',
+          promo:false
+        },
+        {
+        servicio: 'APPLE TV' ,
+        tiempo:' ( 3 meses  ) ',
+        precio:'Precio: 5$',
+        src:'/APPLETV.svg',
+        URL:'APPLETV',
+          promo:false
+        },
+        {
+        servicio: 'AMAZON PRIME' ,
+        tiempo:'( 30 Días  )',
+        precio:'Precio: 2$',
+        src:'/AMAZONPRIME.svg',
+        URL:'AMAZONPRIME',
+          promo:false
+        },{
+        servicio:'HBO MAX',
+        tiempo:'( 30 Días  )',
+        precio:'Precio: 3.5$',
+        src:'/HBOMAX.svg',
+        URL:'HBOMAX',
+          promo:false
+        },
+        {
+          servicio:'SPOTIFY',
+          tiempo:'( 30 Días  )',
+          precio:'Precio: 3.5$',
+          src:'/SPOTIFY.svg',
+          URL:'SPOTIFY',
+          promo:false
+        },{
+        servicio:'SPOTIFY',
+        tiempo:'( 3 Meses  )',
+        precio:'Precio: 5$',
+        src:'/SPOTIFYYEAR.svg',
+        URL:'SPOTIFYYEAR',
+          promo:false
+        }
 ]
   
   return (
