@@ -15,12 +15,6 @@ function page() {
         URL:'CRUNCHYROLL'
         },
         {
-        servicio: 'STAR +' ,
-        tiempo:'( 30 Días  )',
-        precio:'Precio: 1,50$',
-        URL:'STAR'
-        }, 
-        {
           servicio: 'SPOTIFY' ,
           tiempo:'( 1 MES  )',
           precio:'Precio: 3.5$',
