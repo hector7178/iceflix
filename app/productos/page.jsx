@@ -2,51 +2,74 @@ import Card from "../components/Card"
 
 function page() {
     const servicio=[
-        {
+       {
         servicio:'NETFLIX',
         tiempo:'( 30 Días )',
         precio:'Precio: 3,5$',
+        src:'/NETFLIX.svg',
         URL:'NETFLIX'
         },
         {
         servicio: 'CRUNCHYROLL' ,
         tiempo:'( 30 Días  )',
-        precio:'Precio: 2$',
+        precio:'Precio: 1.5$',
+        src:'/CRUNCHYROLL.svg',
         URL:'CRUNCHYROLL'
         },
         {
-          servicio: 'SPOTIFY' ,
-          tiempo:'( 1 MES  )',
-          precio:'Precio: 3.5$',
-          img:'SPOTIFY.svg',
-          promo:false,
-          URL:'SPOTIFY'
-        },
-        {
-          servicio: 'SPOTIFY' ,
-          tiempo:'( 1 AÑO  )',
-          precio:'Precio: 28$',
-          img:'SPOTIFYYEAR.svg',
-          promo:false,
-          URL:'SPOTIFYYEAR'
-        },
-        {
-        servicio: 'DISNEY +' ,
+        servicio: 'DISNEY y STAR +' ,
         tiempo:' ( 30 Días  ) ',
-        precio:'Precio: 1,49$',
+        precio:'Precio: 3.5$',
+        src:'/DISNEY.svg',
         URL:'DISNEY'
+        },
+        {
+        servicio: 'MAGIS TV' ,
+        tiempo:' ( 30 Días  ) ',
+        precio:'Precio: 4$',
+        src:'/MAGISTV.svg',
+        URL:'MAGISTV'
+        },
+        {
+        servicio: 'CANVAS' ,
+        tiempo:' ( 30 Días  ) ',
+        precio:'Precio: 1$',
+        src:'/CANVAS.svg',
+        URL:'CANVAS'
+        },
+        {
+        servicio: 'APPLE TV' ,
+        tiempo:' ( 3 meses  ) ',
+        precio:'Precio: 5$',
+        src:'/APPLETV.svg',
+        URL:'APPLETV'
         },
         {
         servicio: 'AMAZON PRIME' ,
         tiempo:'( 30 Días  )',
-        precio:'Precio: 2.50$',
+        precio:'Precio: 2$',
+        src:'/AMAZONPRIME.svg',
         URL:'AMAZONPRIME'
         },{
         servicio:'HBO MAX',
         tiempo:'( 30 Días  )',
-        precio:'Precio: 1,90$',
+        precio:'Precio: 3.5$',
+        src:'/HBOMAX.svg',
         URL:'HBOMAX'
-        }   
+        },
+        {
+          servicio:'SPOTIFY',
+          tiempo:'( 30 Días  )',
+          precio:'Precio: 3.5$',
+          src:'/SPOTIFY.svg',
+          URL:'SPOTIFY'
+        },{
+        servicio:'SPOTIFY',
+        tiempo:'( 3 Meses  )',
+        precio:'Precio: 5$',
+        src:'/SPOTIFYYEAR.svg',
+        URL:'SPOTIFYYEAR'
+        }
     ]
   return (
     <main className="gap-4 scroll-smooth flex flex-col min-h-screen justify-center items-center  h-fit w-full  p-2 md:p-6 lg:p-12  bg-gradient-to-b from-black via-bg-[#030128] to-black relative"
