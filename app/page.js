@@ -72,7 +72,7 @@ export default function Home() {
         servicio:'NETFLIX',
         tiempo:'( 30 Días )',
         precio:'Precio: 3,5$',
-        img:'/NETFLIX.svg',
+        img:'NETFLIX.svg',
         url:'NETFLIX',
         promo:false
         },
