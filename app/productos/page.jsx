@@ -67,8 +67,8 @@ function page() {
         servicio:'SPOTIFY',
         tiempo:'( 3 Meses  )',
         precio:'Precio: 5$',
-        src:'/SPOTIFYYEAR.svg',
-        URL:'SPOTIFYYEAR'
+        src:'/SPOTIFY.svg',
+        URL:'SPOTIFY'
         }
     ]
   return (
