@@ -72,78 +72,78 @@ export default function Home() {
         servicio:'NETFLIX',
         tiempo:'( 30 Días )',
         precio:'Precio: 3,5$',
-        src:'/NETFLIX.svg',
-        URL:'NETFLIX',
+        img:'/NETFLIX.svg',
+        url:'NETFLIX',
         promo:false
         },
         {
         servicio: 'CRUNCHYROLL' ,
         tiempo:'( 30 Días  )',
         precio:'Precio: 1.5$',
-        src:'/CRUNCHYROLL.svg',
-        URL:'CRUNCHYROLL',
+        img:'/CRUNCHYROLL.svg',
+        url:'CRUNCHYROLL',
           promo:false
         },
         {
         servicio: 'DISNEY y STAR +' ,
         tiempo:' ( 30 Días  ) ',
         precio:'Precio: 3.5$',
-        src:'/DISNEY.svg',
-        URL:'DISNEY',
+        img:'/DISNEY.svg',
+        url:'DISNEY',
           promo:false
         },
         {
         servicio: 'MAGIS TV' ,
         tiempo:' ( 30 Días  ) ',
         precio:'Precio: 4$',
-        src:'/MAGISTV.svg',
-        URL:'MAGISTV',
+        img:'/MAGISTV.svg',
+        url:'MAGISTV',
           promo:false
         },
         {
         servicio: 'CANVAS' ,
         tiempo:' ( 30 Días  ) ',
         precio:'Precio: 1$',
-        src:'/CANVAS.svg',
-        URL:'CANVAS',
+        img:'/CANVAS.svg',
+        url:'CANVAS',
           promo:false
         },
         {
         servicio: 'APPLE TV' ,
         tiempo:' ( 3 meses  ) ',
         precio:'Precio: 5$',
-        src:'/APPLETV.svg',
-        URL:'APPLETV',
+        img:'/APPLETV.svg',
+        url:'APPLETV',
           promo:false
         },
         {
         servicio: 'AMAZON PRIME' ,
         tiempo:'( 30 Días  )',
         precio:'Precio: 2$',
-        src:'/AMAZONPRIME.svg',
-        URL:'AMAZONPRIME',
+        img:'/AMAZONPRIME.svg',
+        url:'AMAZONPRIME',
           promo:false
         },{
         servicio:'HBO MAX',
         tiempo:'( 30 Días  )',
         precio:'Precio: 3.5$',
         src:'/HBOMAX.svg',
-        URL:'HBOMAX',
+        url:'HBOMAX',
           promo:false
         },
         {
           servicio:'SPOTIFY',
           tiempo:'( 30 Días  )',
           precio:'Precio: 3.5$',
-          src:'/SPOTIFY.svg',
-          URL:'SPOTIFY',
+          img:'/SPOTIFY.svg',
+          url:'SPOTIFY',
           promo:false
         },{
         servicio:'SPOTIFY',
         tiempo:'( 3 Meses  )',
         precio:'Precio: 5$',
-        src:'/SPOTIFYYEAR.svg',
-        URL:'SPOTIFYYEAR',
+        img:'/SPOTIFYYEAR.svg',
+        url:'SPOTIFYYEAR',
           promo:false
         }
 ]
