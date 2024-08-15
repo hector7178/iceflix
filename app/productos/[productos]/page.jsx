@@ -96,7 +96,7 @@ function page({ params }) {
           promo:true,
           tiempo:'( 1 MES )',
           precio:'precio: 3.5$',
-        }{
+        },{
           servicio:'Promoción SPOTIFY',
           src:'/promociones/promocionSpotify.svg',
           URL:'spotify',
