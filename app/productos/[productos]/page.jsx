@@ -15,34 +15,48 @@ function page({ params }) {
         {
         servicio: 'CRUNCHYROLL' ,
         tiempo:'( 30 Días  )',
-        precio:'Precio: 2$',
+        precio:'Precio: 1.5$',
         src:'/CRUNCHYROLL.svg',
         URL:'CRUNCHYROLL'
         },
         {
-        servicio: 'STAR +' ,
-        tiempo:'( 30 Días  )',
-        precio:'Precio: 1,50$',
-        src:'/STAR.svg',
-        URL:'STAR'
-        },
-        {
-        servicio: 'DISNEY +' ,
+        servicio: 'DISNEY y STAR +' ,
         tiempo:' ( 30 Días  ) ',
-        precio:'Precio: 1,49$',
+        precio:'Precio: 3.5$',
         src:'/DISNEY.svg',
         URL:'DISNEY'
         },
         {
+        servicio: 'MAGIS TV' ,
+        tiempo:' ( 30 Días  ) ',
+        precio:'Precio: 4$',
+        src:'/MAGISTV.svg',
+        URL:'MAGISTV'
+        },
+        {
+        servicio: 'CANVAS' ,
+        tiempo:' ( 30 Días  ) ',
+        precio:'Precio: 1$',
+        src:'/CANVAS.svg',
+        URL:'CANVAS'
+        },
+        {
+        servicio: 'APPLE TV' ,
+        tiempo:' ( 3 meses  ) ',
+        precio:'Precio: 5$',
+        src:'/APPLETV.svg',
+        URL:'APPLETV'
+        },
+        {
         servicio: 'AMAZON PRIME' ,
         tiempo:'( 30 Días  )',
-        precio:'Precio: 2.5$',
+        precio:'Precio: 2$',
         src:'/AMAZONPRIME.svg',
         URL:'AMAZONPRIME'
         },{
         servicio:'HBO MAX',
         tiempo:'( 30 Días  )',
-        precio:'Precio: 1,90$',
+        precio:'Precio: 3.5$',
         src:'/HBOMAX.svg',
         URL:'HBOMAX'
         },
@@ -54,8 +68,8 @@ function page({ params }) {
           URL:'SPOTIFY'
         },{
         servicio:'SPOTIFY',
-        tiempo:'( 1 AÑO  )',
-        precio:'Precio: 28$',
+        tiempo:'( 3 Meses  )',
+        precio:'Precio: 5$',
         src:'/SPOTIFYYEAR.svg',
         URL:'SPOTIFYYEAR'
         }, 
@@ -66,15 +80,6 @@ function page({ params }) {
           promo:true,
           tiempo:'( 1 MES )',
           precio:'precio: 4.5$',
-        },
-        {
-          servicio:'Promoción DISNEY +',
-          src:'/promociones/promocionDisney.svg',
-          URL:'disney',
-          promo:true,
-          tiempo:'( 1 MES )',
-          precio:'precio: 1.5$',
-    
         },
         {
           servicio:'Promoción HBO MAX',
@@ -91,21 +96,13 @@ function page({ params }) {
           promo:true,
           tiempo:'( 1 MES )',
           precio:'precio: 3.5$',
-        },{
-          servicio:'Promoción STAR +',
-          src:'/promociones/promocionStar.svg',
-          URL:'star',
-          promo:true,
-          tiempo:'( 1 MES )',
-          precio:'precio: 2$',
-    
-        },{
+        }{
           servicio:'Promoción SPOTIFY',
           src:'/promociones/promocionSpotify.svg',
           URL:'spotify',
           promo:true,
           tiempo:'( 3 MESES )',
-          precio:'precio: 7$',
+          precio:'precio: 5$',
         }
         
     ]
